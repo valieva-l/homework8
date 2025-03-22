@@ -21,11 +21,7 @@ public class Main {
             System.out.println(paints[i]);
         }
         System.out.println ("Задача 2");
-        int[] candyBox = new int[5];
-        candyBox[0] = 8;
-        candyBox[4] = 2;
-        for (int i = 0; i < 5; i++) {
-        }
+        int[] candyBox = {8, 0, 0, 0, 2};
         System.out.println(Arrays.toString(candyBox));
 
 
@@ -61,6 +57,7 @@ public class Main {
             }
         }
         System.out.println(Arrays.toString(weightOne));
+
 
     }
 }
